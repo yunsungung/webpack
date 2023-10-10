@@ -40,4 +40,13 @@ module.exports ={
         }),
         new CopyPlugin({
             patterns : [
-               
+                {from : 'static'}
+            ]
+        })
+    ],
+
+    // 호스트 주소 넣기
+    devServer : {
+        host : 'localhost'
+    }
+}
